@@ -7,30 +7,6 @@
     display: flex;
 }
 
-.locations {
-    height: 100%;
-    width: 25%;
-    border-right: 1px solid #DDDDDD;
-}
-
-.amenities {
-    height: 100%;
-    width: 25%;
-}
-
-.filters h3 {
-    font-weight: 600;
-    margin: 0px;
-	padding: 0px 0px 0 40px;
-}
-
-.filters h4 {
-    font-weight: 400;
-    font-size: 14px;
-    margin: 0px;
-	padding: 0 0 0 40px;
-}
-
 button {
     font-size: 18px;
     background-color: #FF5A5F;
@@ -47,22 +23,42 @@ button:hover {
     opacity: 0.9;
 }
 
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations,
+.amenities {
+    height: 100%;
+    width: 25%;
+}
+
+.filters h3 {
+    font-weight: 600;
+    margin: 15px auto 5px 40px;
+}
+
+.filters h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 auto 0 40px;
+}
+
 .filters ul {
-    margin: 35px 0 35px 0;
-    padding: 30px;
+    padding: 20px 30px 40px 30px;
     list-style: none;
 }
 
 .filters h2 {
     font-size: 16px;
+    margin: 20px auto 5px auto;
 }
 
 .popover {
-    margin-top: 30px;
     display: none;
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
-    width: 100%;
+    width: 80%;
 }
 
 .locations:hover .popover,
@@ -71,5 +67,5 @@ button:hover {
 }
 
 .popover li {
-    margin: 12px;
+    margin: 0 0 5px 12px;
 }
